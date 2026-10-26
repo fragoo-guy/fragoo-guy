@@ -1,6 +1,6 @@
 <h1 align="center">Hey <img src="https://raw.githubusercontent.com/SP-XD/SP-XD/refs/heads/main/images/Developer.gif" height="30px" width="30px"> I'm Gourav Sharma</h1>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,100:1e3a8a&height=220&section=header&text=Cybersecurity%20Student&fontColor=ffffff&fontSize=38&animation=fadeIn&fontAlignY=35&desc=SOC%20Analyst%20in%20Training&descAlignY=58&descSize=18" alt="Animated cybersecurity banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f172a,100:1e3a8a&height=180&section=header&text=Cybersecurity%20Student&fontColor=ffffff&fontSize=38&fontAlignY=40&desc=SOC%20Analyst%20in%20Training&descAlignY=65&descSize=18" alt="Cybersecurity student banner" width="100%" />
 
 ## 📌 About Me
 Cybersecurity student and aspiring SOC analyst building practical skills in Linux, networking, Python scripting, and incident response. I’m currently working on personal projects and continuously learning to grow as a security professional.
@@ -18,24 +18,19 @@ Cybersecurity student and aspiring SOC analyst building practical skills in Linu
 A Python command-line tool that hides and extracts text or binary files inside PNG images using Least Significant Bit (LSB) steganography. It supports configurable color channels, payload capacity checks, binary file recovery, and command-line usage.
 
 **Technologies:** Python, Pillow, Cryptography, Pytest  
-**Status:** 🚧 In progress · **Repository:** [PicFind](https://github.com/fragoo-guy/PicFind)
-
-<p align="center">
-  <a href="https://github.com/fragoo-guy/PicFind"><img src="https://raw.githubusercontent.com/fragoo-guy/PicFind/main/demo_in.png" alt="PicFind original image" width="220" /></a>
-  <a href="https://github.com/fragoo-guy/PicFind"><img src="https://raw.githubusercontent.com/fragoo-guy/PicFind/main/demo_out.png" alt="PicFind image with embedded payload" width="220" /></a>
-</p>
+**Status:** ✅ Completed · **Repository:** [PicFind](https://github.com/fragoo-guy/PicFind)
 
 ### 🍯 [HoneyGuard — Visual Honeypot System](https://github.com/fragoo-guy/honeyguard)
 A cybersecurity honeypot that runs simulated SSH, HTTP, and FTP services to capture attacker behavior. Events are logged to SQLite with timestamps, IP information, credentials, commands, and suspicious paths for security analysis.
 
 **Technologies:** Python, Paramiko, Flask, Flask-SocketIO, pyftpdlib, SQLite, Rich  
-**Status:** 🚧 In progress · **Repository:** [HoneyGuard](https://github.com/fragoo-guy/honeyguard)
+**Status:** 🔨 Ongoing development · **Repository:** [HoneyGuard](https://github.com/fragoo-guy/honeyguard)
 
 ### 🛡️ [Threat Intelligence Feed Integrator & SOC Platform](https://github.com/fragoo-guy/threat-intel-feed-integrator)
 A threat intelligence platform that collects indicators from AlienVault OTX, VirusTotal, and AbuseIPDB, then normalizes, deduplicates, tags, and enriches them with MITRE ATT&CK mappings. It includes a FastAPI backend, MongoDB storage, Streamlit SOC dashboard, CSV/STIX 2.1 exports, and Suricata/Snort rule generation.
 
 **Technologies:** Python, FastAPI, Pydantic, MongoDB, Motor, httpx, APScheduler, Streamlit, Docker, STIX 2.1  
-**Status:** 🚧 In progress · **Repository:** [Threat Intel Feed Integrator](https://github.com/fragoo-guy/threat-intel-feed-integrator)
+**Status:** 🔨 Ongoing development · **Repository:** [Threat Intel Feed Integrator](https://github.com/fragoo-guy/threat-intel-feed-integrator)
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
@@ -61,13 +56,31 @@ A threat intelligence platform that collects indicators from AlienVault OTX, Vir
 ### Cybersecurity & Backend
 <p align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="FastAPI" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="48" height="48" style="margin: 4px;" /> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="48" height="48" style="margin: 4px;" /></p>
 
-**Libraries & concepts:** Pillow, Cryptography, Paramiko, pyftpdlib, Pydantic, Streamlit, STIX 2.1, APScheduler, httpx, REST APIs, threat intelligence, honeypots, steganography, and automated testing with Pytest.
+### Libraries & Concepts
+<p align="center">
+  <img src="https://img.shields.io/badge/Pillow-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Pillow" />
+  <img src="https://img.shields.io/badge/Cryptography-2F6B4F?style=for-the-badge&logo=letsencrypt&logoColor=white" alt="Cryptography" />
+  <img src="https://img.shields.io/badge/Paramiko-1F2937?style=for-the-badge&logo=openssh&logoColor=white" alt="Paramiko" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/STIX%202.1-7C3AED?style=for-the-badge&logoColor=white" alt="STIX 2.1" />
+  <img src="https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white" alt="Pytest" />
+  <img src="https://img.shields.io/badge/Threat%20Intelligence-B91C1C?style=for-the-badge&logoColor=white" alt="Threat intelligence" />
+  <img src="https://img.shields.io/badge/Honeypots-334155?style=for-the-badge&logoColor=white" alt="Honeypots" />
+  <img src="https://img.shields.io/badge/Steganography-475569?style=for-the-badge&logoColor=white" alt="Steganography" />
+</p>
 
 ### Tools
 <p align="center"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="48" height="48" style="margin: 4px;" /> <img src="https://www.vectorlogo.zone/logos/visualstudio_code/visualstudio_code-icon.svg" alt="VS Code" width="48" height="48" style="margin: 4px;" /></p>
 
 ## 🔗 Connect with Me
-<p align="center"><a href="https://www.linkedin.com/in/gourav-93-sharma" target="_blank"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/LinkedIN.svg" alt="LinkedIn" width="40" height="40" style="margin: 0 8px;"/></a> <a href="mailto:sh.gourav93@gmail.com"><img src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Color/Gmail.svg" alt="Email" width="40" height="40" style="margin: 0 8px;"/></a></p>
+I’m open to cybersecurity internships, SOC analyst opportunities, and collaborations on security-focused projects.
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/gourav-93-sharma"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sh.gourav93@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tobiasmeyhoefer/tobiasmeyhoefer/output/github-snake-dark.svg" />
